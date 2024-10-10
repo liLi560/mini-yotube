@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #cc0000;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#videos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#videos-container video {
+    width: 300px;
+    height: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff3333;
+}
+
+#comments-section textarea {
+    width: 100%;
+    margin-top: 10px;
+}
